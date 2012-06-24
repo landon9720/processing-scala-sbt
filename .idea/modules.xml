@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/project.iml" filepath="$PROJECT_DIR$/.idea_modules/project.iml" ></module>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/default-fe68d2.iml" filepath="$PROJECT_DIR$/.idea_modules/default-fe68d2.iml" ></module>
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/processing-scala-sbt.iml" filepath="$PROJECT_DIR$/.idea_modules/processing-scala-sbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/project.iml" filepath="$PROJECT_DIR$/.idea_modules/project.iml" />
     </modules>
   </component>
 </project>
+

@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="core.jar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/core.jar!/"></root>
+      <root url="jar://$PROJECT_DIR$/lib/core.jar!/" />
     </CLASSES>
-    <JAVADOC> </JAVADOC>
-    <SOURCES> </SOURCES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/processing-core-src/methods/src" />
+      <root url="file://$PROJECT_DIR$/processing-core-src/src" />
+    </SOURCES>
   </library>
 </component>
