@@ -2,30 +2,26 @@ package kuhn
 
 import processing.core._
 import PConstants._
+import PApplet._
 
 class Main extends PApplet {
   
   override def setup {
-    size(500, 500)
+    size(800, 800)
     colorMode(HSB, 100)
-    frameRate(60)
-
+    frameRate(999)
     background(0)
-
-    loop
+    noLoop
   }
 
   override def draw {
-
-    
-    translate(width / 2, height / 2)
-    rotate(frameCount / 100f)
-    
-    fill(50)
-    stroke(100)
-    strokeWeight(3)
-    rect(-width / 4, -height / 4, width / 2, height / 2)
-    
+    def pix(f:(Int, Int) => Unit) {
+      for (x <- 0 until width; y <- 0 until height) f(x, y)
+    }
+    pix { (x, y) =>
+      stroke(map(x, 0, width, 0, 100), map(y, 0, height, 0, 100), 100)
+      point(x, y)
+    }
   }
 }
 
