@@ -1,25 +1,36 @@
-import processing.core._;
+package kuhn
 
-object ProcessingTest extends PApplet {
+import processing.core._
+import PConstants._
+
+class Main extends PApplet {
   
   override def setup {
-    colorMode(HSB, 100)
-    size(400, 400)
+    size(200, 200)
+    colorMode(HSB)
+    frameRate(10)
     loop
   }
+  
+  var r:Float = 0
 
-  override def draw():Unit = {
-    background(50)
+  override def draw {
+    background(0)
+    
     translate(width / 2, height / 2)
-    ellipse(0, 0, 100, 100)
+    rotate(r)
+    
+    fill(50)
+    stroke(0)
+    strokeWeight(3)
+    rect(-width / 2, -height / 2, width, height)
+    
+    r += PI / 100
   }
+}
 
-  def main(args: Array[String]): unit = {
-    var frame = new javax.swing.JFrame("Test")
-    var applet = ProcessingTest
-    frame.getContentPane().add(applet)
-    applet.init
-    frame.pack
-    frame.setVisible(true)
+object Main {
+  def main(args:Array[String]) {
+    PApplet.main(Array("kuhn.Main"))
   }
 }
