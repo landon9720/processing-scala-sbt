@@ -6,9 +6,9 @@ import PConstants._
 class Main extends PApplet {
   
   override def setup {
-    size(200, 200)
-    colorMode(HSB)
-    frameRate(10)
+    size(500, 500)
+    colorMode(HSB, 100)
+    frameRate(60)
     loop
   }
   
@@ -21,11 +21,11 @@ class Main extends PApplet {
     rotate(r)
     
     fill(50)
-    stroke(0)
+    stroke(100)
     strokeWeight(3)
-    rect(-width / 2, -height / 2, width, height)
+    rect(-width / 4, -height / 4, width / 2, height / 2)
     
-    r += PI / 100
+    r += PI / 50
   }
 }
 
