@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project name="Processing Core" default="build">
+
+  <target name="clean" description="Clean out the build directories">
+    <delete dir="bin" />
+    <delete file="core.jar" />
+  </target>
+  
+  <target name="compile" description="Compile">
+    <taskdef name="methods" 
+	     classname="PAppletMethods" 
+	     classpath="methods/methods.jar" />
+    <methods dir="${basedir}/src/processing/core" />
+
+    <mkdir dir="bin" />
+    <javac target="1.6" 
+	   encoding="UTF-8"
+	   includeAntRuntime="false"
+	   debug="true"
+	   srcdir="src" destdir="bin" />
+    
+    <!-- copy the jnilib to the bin folder so it's included -->
+    <copy todir="bin/japplemenubar" 
+	  file="src/japplemenubar/libjAppleMenuBar.jnilib" />
+  </target>		
+
+  <target name="build" depends="compile" description="Build core library">
+    <jar basedir="bin" destfile="core.jar" />
+  </target>
+  
+</project>

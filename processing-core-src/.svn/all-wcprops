@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9741/trunk/processing/core
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/847/trunk/processing/core/license.txt
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/8051/trunk/processing/core/.classpath
+END
+done.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9708/trunk/processing/core/done.txt
+END
+todo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9708/trunk/processing/core/todo.txt
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6025/trunk/processing/core/.project
+END
+make.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1487/trunk/processing/core/make.sh
+END
+api.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4931/trunk/processing/core/api.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9701/trunk/processing/core/build.xml
+END

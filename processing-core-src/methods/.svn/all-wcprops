@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/6110/trunk/processing/core/methods
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6102/trunk/processing/core/methods/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6102/trunk/processing/core/methods/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6103/trunk/processing/core/methods/build.xml
+END
+methods.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6110/trunk/processing/core/methods/methods.jar
+END

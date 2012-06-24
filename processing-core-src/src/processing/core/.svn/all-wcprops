@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/9741/trunk/processing/core/src/processing/core
+END
+PGraphics.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9731/trunk/processing/core/src/processing/core/PGraphics.java
+END
+PStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4696/trunk/processing/core/src/processing/core/PStyle.java
+END
+PShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9654/trunk/processing/core/src/processing/core/PShape.java
+END
+PShapeSVG.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9400/trunk/processing/core/src/processing/core/PShapeSVG.java
+END
+PVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9741/trunk/processing/core/src/processing/core/PVector.java
+END
+PImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9731/trunk/processing/core/src/processing/core/PImage.java
+END
+PMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7133/trunk/processing/core/src/processing/core/PMatrix.java
+END
+PApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9728/trunk/processing/core/src/processing/core/PApplet.java
+END
+PFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8411/trunk/processing/core/src/processing/core/PFont.java
+END
+PGraphicsJava2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9727/trunk/processing/core/src/processing/core/PGraphicsJava2D.java
+END
+PMatrix2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7133/trunk/processing/core/src/processing/core/PMatrix2D.java
+END
+PMatrix3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9477/trunk/processing/core/src/processing/core/PMatrix3D.java
+END
+PConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9697/trunk/processing/core/src/processing/core/PConstants.java
+END
