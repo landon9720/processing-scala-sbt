@@ -9,23 +9,23 @@ class Main extends PApplet {
     size(500, 500)
     colorMode(HSB, 100)
     frameRate(60)
+
+    background(0)
+
     loop
   }
-  
-  var r:Float = 0
 
   override def draw {
-    background(0)
+
     
     translate(width / 2, height / 2)
-    rotate(r)
+    rotate(frameCount / 100f)
     
     fill(50)
     stroke(100)
     strokeWeight(3)
     rect(-width / 4, -height / 4, width / 2, height / 2)
     
-    r += PI / 50
   }
 }
 

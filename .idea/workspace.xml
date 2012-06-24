@@ -58,10 +58,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="1" selection-start="536" selection-end="536" vertical-scroll-proportion="0.83598727">
+            <state line="21" column="28" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="76" selection-start="100" selection-end="100" vertical-scroll-proportion="0.048780486">
               <folding />
             </state>
           </provider>
@@ -83,8 +92,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/scala/main.scala" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -530,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="114" selection-start="462" selection-end="462" vertical-scroll-proportion="0.2682927">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processing-core-src/src/processing/core/PApplet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="13" selection-start="5748" selection-end="5748" vertical-scroll-proportion="3.0487804">
@@ -546,7 +548,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="536" selection-end="536" vertical-scroll-proportion="0.83598727">
+        <state line="21" column="28" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="76" selection-start="100" selection-end="100" vertical-scroll-proportion="0.048780486">
           <folding />
         </state>
       </provider>

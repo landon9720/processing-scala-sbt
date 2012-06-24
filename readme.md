@@ -1,6 +1,6 @@
 # processing-scala-sbt
 
-This is a template project for developing [http://processing.org](Processing) programs in Scala. Includes:
+This is a template project for developing [Processing](http://processing.org) programs in Scala. Includes:
 
 * Processing core library and source
 * SBT project and IDEA project
